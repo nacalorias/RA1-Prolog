@@ -1,6 +1,7 @@
-# Sistema Especialista para Recomendação de Trilha Acadêmica
+# Sistema Especializado em Recomendação de Trilha Acadêmica
 
-- **Disciplina:** Programação Lógica e Funcional  
+- **Disciplina:** Programação Lógica e Funcional
+- **Instituição:** Pontifícia Universidade Católica do Paraná    
 - **Professor:** Frank Coelho de Alcantara  
 - **Alunos:**  
   - Ana Carolina Afonso Meiado — [@nacalorias](https://github.com/nacalorias)  
@@ -21,3 +22,71 @@ As trilhas consideradas são:
 - Redes e Infraestrutura  
 
 ---
+
+## Tecnologias Utilizadas
+- **Linguagem:** Prolog
+- **Ambiente de execução:** SWI-Prolog ou SWISH
+- **Editor utilizado:** SWISH e VS Code
+
+---
+
+## Estrutura do Projeto
+
+```
+/projeto
+├── base_conhecimento.pl # Base de fatos (trilhas, perfis, perguntas)
+├── motor_inferencia.pl # Regras de inferência e cálculo de pontuação
+├── interface_usuario.pl # Predicados para interação com o usuário
+├── perfil_teste_1.pl # Perfil de aluno 1 (respostas pré-definidas)
+├── perfil_teste_2.pl # Perfil de aluno 2 (respostas pré-definidas)
+├── perfil_teste_3.pl # Perfil de aluno 3 (respostas pré-definidas)
+└── README.md # Documentação do projeto
+```
+
+---
+
+## Como Executar
+
+1. Abra o **SWI-Prolog** (ou use o [Swish Online](https://swish.swi-prolog.org/)).  
+2. Carregue os arquivos:
+   ```prolog
+
+3. Inicie o sistema:
+   ```prolog
+   ?- iniciar.
+
+---
+
+## Exemplo de Uso
+
+```
+?- iniciar.
+```
+Você gosta de análise e estatística? (s/n)
+```
+s
+```
+Você se interessa por desenvolvimento visual? (s/n)
+```
+n
+```
+**Recomendação:** Ciência de Dados
+
+---
+
+## Possíveis Melhorias Futuras
+
+* Ampliar a base de conhecimento para incluir mais trilhas acadêmicas e áreas de especialização.
+* Permitir que o usuário atribua pesos às respostas, tornando a recomendação mais personalizada.
+* Criar uma interface gráfica ou aplicação web para facilitar o uso sem depender do console do Prolog.
+* Integrar com banco de dados externo para registrar os perfis dos alunos e acompanhar a evolução das recomendações.
+* Adicionar suporte multilíngue (Português/Inglês) para ampliar o alcance do sistema.
+* Implementar um modo de simulação para que professores possam testar cenários com diferentes perfis de alunos.
+
+---
+
+## Licença
+
+Este projeto foi desenvolvido **exclusivamente para fins educacionais** na disciplina de *Programação Lógica e Funcional* da Pontifícia Universidade Católica do Paraná.
+Não possui finalidade comercial e não concede direitos de uso além do contexto acadêmico.
+
