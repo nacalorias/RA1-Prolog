@@ -54,6 +54,11 @@ As trilhas consideradas são:
    ```prolog
    ?- iniciar.
 
+## Como executar os arquivos testes
+1. Copie e cole no terminal do Swish Online:
+    ```prolog
+     ?- rodar_teste(1).
+
 ---
 
 ## Exemplo de Uso
