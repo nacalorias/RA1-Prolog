@@ -1,13 +1,16 @@
 %           SISTEMA ESPECIALISTA PARA RECOMENDAÇÃO DE TRILHAS DE TI        
 %                             (VERSÃO COM VALIDAÇÃO)                         
                                                                           
-% --- DEFINIÇÃO DINÂMICA ---
+% Definição dinâmica:permite que fatos como respota/2 sejam adicionados
+% ou removidos em tempo de execução.
+% resposta(PerguntaID, RespostasUsuario).
 
 :- dynamic resposta/2.
                                                                            
-%                             BASE DE CONHECIMENTO                             
+% BASE DE CONHECIMENTO                             
                                                                            
-% -*- FATOS: TRILHAS DE ESPECIALIZAÇÃO -*-
+% FATOS: TRILHAS DE ESPECIALIZAÇÃO 
+% Cada trilha representa uma área da TI.
 % Formato: trilha(NomeDaTrilha, Descricao).
 
 trilha(ciencia_de_dados, 'Análise e interpretação de grandes volumes de dados para extrair conhecimento e insights valiosos.').
@@ -16,7 +19,7 @@ trilha(seguranca_da_informacao, 'Proteção de sistemas, redes e dados contra at
 trilha(inteligencia_artificial, 'Desenvolvimento de sistemas que podem pensar, aprender e tomar decisões como seres humanos.').
 trilha(redes_e_infraestrutura, 'Planejamento, implementação e gerenciamento da infraestrutura de TI, como servidores e redes de comunicação.').
 
-% --- FATOS: CARACTERÍSTICAS DE PERFIL ---
+% FATOS: CARACTERÍSTICAS DE PERFIL 
 % Formato: perfil(NomeDaTrilha, CaracteristicaAssociada, PesoDeRelevancia).
 % Peso de 1 (pouco relevante) a 5 (muito relevante).
 
@@ -51,7 +54,9 @@ perfil(redes_e_infraestrutura, resolucao_problemas_concretos, 4).
 perfil(redes_e_infraestrutura, organizacao, 3).
 
 
-% --- FATOS: PERGUNTAS PARA O USUÁRIO ---
+% FATOS: PERGUNTAS PARA O USUÁRIO
+% São as questões que o sistema faz para avaliar o perfil da pessoa.
+% Cada pergunta está associada a uma caracteristica.
 % Formato: pergunta(ID, TextoDaPergunta, CaracteristicaQueAvalia).
 
 pergunta(1, 'Você tem afinidade com matemática e estatística?', matematica_estatistica).
