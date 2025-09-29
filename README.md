@@ -57,6 +57,7 @@ As trilhas consideradas são:
 
 ## Exemplo de Uso
 
+1. Digita o iniciar abaixo e da Ctrl + Enter.
 ```
 ?- iniciar.
 ```
