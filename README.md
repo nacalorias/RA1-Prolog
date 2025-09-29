@@ -33,13 +33,11 @@ As trilhas consideradas são:
 ## Estrutura do Projeto
 
 ```
-/projeto
-├── base_conhecimento.pl # Base de fatos (trilhas, perfis, perguntas)
-├── motor_inferencia.pl # Regras de inferência e cálculo de pontuação
-├── interface_usuario.pl # Predicados para interação com o usuário
-├── perfil_teste_1.pl # Perfil de aluno 1 (respostas pré-definidas)
-├── perfil_teste_2.pl # Perfil de aluno 2 (respostas pré-definidas)
-├── perfil_teste_3.pl # Perfil de aluno 3 (respostas pré-definidas)
+/Projeto Recomendação de Trilha Acadêmica
+├── Projeto Recomendação de Trilha Acadêmica.pl # Base de fatos (trilhas, perfis, perguntas), Regras de inferência e cálculo de pontuação e Predicados para interação com o usuário
+├── teste_perfil_dados.pl # Aluno com forte inclinação para lógica e dados. (respostas pré-definidas)
+├── teste_perfil_web.pl # Aluno com inclinação para criatividade e desenvolvimento prático. (respostas pré-definidas)
+├── teste_perfil_seguranca.pl # Aluno com pensamento sistêmico e investigativo. (respostas pré-definidas)
 └── README.md # Documentação do projeto
 ```
 
