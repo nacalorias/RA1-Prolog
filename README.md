@@ -48,7 +48,8 @@ As trilhas consideradas são:
 1. Abra o **SWI-Prolog** (ou use o [Swish Online](https://swish.swi-prolog.org/)).  
 2. Carregue os arquivos:
    ```prolog
-
+   Código Completo Trilha.pl
+   
 3. Inicie o sistema:
    ```prolog
    ?- iniciar.
@@ -57,17 +58,57 @@ As trilhas consideradas são:
 
 ## Exemplo de Uso
 
-1. Digita o iniciar abaixo e da Ctrl + Enter.
+- Digita o iniciar abaixo e da Ctrl + Enter.
 ```
 ?- iniciar.
 ```
-Você gosta de análise e estatística? (s/n)
+1. Você gosta de análise e estatística? (s/n)
+```
+n
+```
+2. Gosta de programar com lógica? (s/n)
 ```
 s
 ```
-Você se interessa por desenvolvimento visual? (s/n)
+3. Interessa-se por design visual? (s/n)
 ```
 n
+```
+4. É criativo para construir do zero? (s/n)
+```
+n
+```
+5. Prefere resolver problemas práticos e rápidos? (s/n)
+```
+s
+```
+6. Curiosidade sobre como sistemas funcionam? (s/n)
+```
+s
+```
+7. Gosta de analisar dados? (s/n)
+```
+n
+```
+8. Gosta de investigar e encontrar falhas? (s/n)
+```
+s
+```
+9. Considera ética importante? (s/n)
+```
+s
+```
+10. Gosta de problemas abstratos? (s/n)
+```
+n
+```
+11. Interesse em hardware? (s/n)
+```
+s
+```
+12. É organizado? (s/n)
+```
+s
 ```
 **Recomendação:** Ciência de Dados
 
