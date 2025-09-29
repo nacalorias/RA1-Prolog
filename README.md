@@ -35,9 +35,9 @@ As trilhas consideradas são:
 ```
 /Projeto Recomendação de Trilha Acadêmica
 ├── Projeto Recomendação de Trilha Acadêmica.pl # Base de Conhecimento (trilhas, perfis, perguntas), regras de inferência, cálculo de pontuação e predicados para interação com o usuário.
-├── teste_perfil_dados.pl # Aluno com forte inclinação para lógica e dados. (respostas pré-definidas)
-├── teste_perfil_web.pl # Aluno com inclinação para criatividade e desenvolvimento prático. (respostas pré-definidas)
-├── teste_perfil_seguranca.pl # Aluno com pensamento sistêmico e investigativo. (respostas pré-definidas)
+├── rodar_teste(1).pl # Perfil voltado para dados/IA. (respostas pré-definidas)
+├── rodar_teste(2).pl# Perfil voltado para web/design. (respostas pré-definidas)
+├── rodar_teste(3).pl # Perfil voltado para redes/segurança. (respostas pré-definidas)
 └── README.md # Documentação do projeto
 ```
 
